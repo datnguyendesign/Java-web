@@ -8,7 +8,7 @@
             <a href="#" class="navbar-brand">
                 <small>
                     <i class="fa fa-leaf"></i>
-                    Trang quản trị
+                    Admin page
                 </small>
             </a>
         </div>
@@ -16,12 +16,12 @@
             <ul class="nav ace-nav">
                 <li class="light-blue dropdown-modal">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        Xin chào, [name]
+                        Hello, Dat
                     </a>
                     <li class="light-blue dropdown-modal">
                         <a href="#">
                             <i class="ace-icon fa fa-power-off"></i>
-                            Thoát
+                            Quit
                         </a>
                     </li>
                 </li>

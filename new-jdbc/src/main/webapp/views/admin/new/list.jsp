@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Danh sách bài viết</title>
+<title>Post List</title>
 </head>
 <body>
 	<div class="main-content">
@@ -13,7 +13,7 @@
 			<div class="main-content-inner">
 				<div class="breadcrumbs ace-save-state" id="breadcrumbs">
 					<ul class="breadcrumb">
-						<li><i class="ace-icon fa fa-home home-icon"></i> <a href="#">Trangchủ</a></li>
+						<li><i class="ace-icon fa fa-home home-icon"></i> <a href="#">Homepage</a></li>
 					</ul>
 					<!-- /.breadcrumb -->
 				</div>
@@ -26,8 +26,8 @@
 										<table class="table table-bordered">
 											<thead>
 												<tr>
-													<th>Tên bài viết</th>
-													<th>Mô tả ngắn</th>
+													<th>Post name</th>
+													<th>Short Description</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -53,11 +53,11 @@
 			</div>
 		</form>
 	</div>
-	<!-- /.main-content -->
+	<!-- /.main-content  -->
 	<script>
 		var totalPages = ${model.totalPage};
 		var currentPage = ${model.page};
-		var limit = 2;
+		var limit = 3;
 		$(function () {
 			window.pagObj = $('#pagination').twbsPagination({
 				totalPages: totalPages,
